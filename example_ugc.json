@@ -1,0 +1,725 @@
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "post": {
+            "post": {
+                "game_id": 2,
+                "post_id": "42714872",
+                "f_forum_id": 0,
+                "uid": "35264884",
+                "subject": "[Aedificium Abyssale]",
+                "content": "{\"structured_content\":\"[{\\\"insert\\\":\\\"[Aedificium Abyssale]! Target: Safehouse!\\\\n\\\\nHi, Travelers. In this guide, let's dive into the [Aedificium Abyssale]!\\\"}]\", \"images\":[{\"image_url\":\"https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/5b0342d59b2b924da47b15331c688894_388534852104368664.jpg\"}, {\"image_url\":\"https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/91b3f2fb31a9c2ba368b24a93887b3ed_8740431175831915566.jpg\"}, {\"image_url\":\"https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/63d0b5f719532b474584fc2fa124ba2f_1167524174932865127.jpg\"}, {\"image_url\":\"https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/394262ee4be8f97524a22635c08e31e6_3559185437200687935.jpg\"}]}",
+                "cover": "",
+                "view_type": 7,
+                "created_at": 1765352416,
+                "images": [],
+                "post_status": {
+                    "is_top": false,
+                    "is_good": false,
+                    "is_official": false,
+                    "is_vote": false,
+                    "is_quiz_vote": false,
+                    "is_demoted": false,
+                    "is_hot": false
+                },
+                "topic_ids": [],
+                "view_status": 1,
+                "max_floor": 0,
+                "is_original": 2,
+                "republish_authorization": 0,
+                "reply_time": "2025-12-10 07:40:16",
+                "is_deleted": 0,
+                "is_interactive": false,
+                "structured_content": "[{\"insert\":\"[Aedificium Abyssale]! Target: Safehouse!\\n\\nHi, Travelers. In this guide, let's dive into the [Aedificium Abyssale]!\"}]",
+                "structured_content_rows": [],
+                "lang": "en-us",
+                "official_type": 0,
+                "reply_forbid": {
+                    "date_type": 0,
+                    "start_date": "0",
+                    "cur_date": "0",
+                    "level": 0
+                },
+                "video": "",
+                "contribution_id": "0",
+                "event_start_date": "0",
+                "event_end_date": "0",
+                "classification_id": "101",
+                "is_audit": false,
+                "is_multi_language": false,
+                "origin_lang": "en-us",
+                "sub_type": 4,
+                "reprint_source": "",
+                "can_edit": true,
+                "last_modify_time": 0,
+                "multi_language_info": null,
+                "visible_level": 1,
+                "has_cover": false,
+                "suid": "0",
+                "desc": "[Aedificium Abyssale]! Target: Safehouse! Hi, Travelers. In this guide, let's dive into the [Aedificium Abyssale]!",
+                "game_uid": "844817282",
+                "game_region": "os_asia"
+            },
+            "forum": null,
+            "topics": [],
+            "user": {
+                "uid": "35264884",
+                "nickname": "Kpmgklvstd",
+                "introduce": "",
+                "avatar": "100830",
+                "gender": 0,
+                "certification": null,
+                "level_exp": {
+                    "level": 0,
+                    "exp": 0
+                },
+                "is_following": false,
+                "is_followed": false,
+                "avatar_url": "https://upload-os-bbs.hoyolab.com/upload/2025/08/08/d7bfd3e7e07cd906e6938f4f7de3780b_399013221828504791.png?x-oss-process=image/auto-orient,0/interlace,1/format,webp/quality,q_70",
+                "auth": null,
+                "is_logoff": false,
+                "pendant": "",
+                "was_following": false,
+                "post_num": 4,
+                "suid": "0",
+                "black_relation": {
+                    "is_blacking": false,
+                    "is_blacked": false
+                },
+                "badge": null,
+                "lantern": null,
+                "otaku_devotion_title": {
+                    "icon": "",
+                    "name": "",
+                    "desc": "",
+                    "otaku_identity": "OtakuIdentityNone",
+                    "accompany_title": "AccompanyTitleUnknown",
+                    "role_id": "0"
+                },
+                "allow_community": true,
+                "content_cannot_be_upvoted": false,
+                "content_cannot_be_replied": false,
+                "post_cannot_be_shared": false,
+                "post_cannot_be_collected": false,
+                "cannot_be_followed": false
+            },
+            "self_operation": {
+                "attitude": 0,
+                "is_collected": false
+            },
+            "stat": {
+                "view_num": 19,
+                "reply_num": 0,
+                "like_num": 0,
+                "bookmark_num": 0,
+                "share_num": 0,
+                "view_num_unit": "",
+                "reply_num_unit": "",
+                "like_num_unit": "",
+                "bookmark_num_unit": "",
+                "share_num_unit": "",
+                "true_view_num": 0,
+                "click_view_num": 0,
+                "summary_for_creator": null,
+                "multi_upvote_stats": [],
+                "self_operation": null,
+                "expose_view_num": 0
+            },
+            "help_sys": null,
+            "cover": null,
+            "image_list": [
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/5b0342d59b2b924da47b15331c688894_3601407539643104544.jpg",
+                    "height": 1081,
+                    "width": 1922,
+                    "format": "JPEG",
+                    "size": "206477",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1922,
+                                "y": 1080
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 555,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1366,
+                                "y": 1081
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 239,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1682,
+                                "y": 1081
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 420,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1501,
+                                "y": 1081
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661876"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/91b3f2fb31a9c2ba368b24a93887b3ed_4133375439100226652.jpg",
+                    "height": 1688,
+                    "width": 2400,
+                    "format": "JPEG",
+                    "size": "256319",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 169
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1518
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 567,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1832,
+                                "y": 1688
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 73,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2326,
+                                "y": 1688
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 356,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2044,
+                                "y": 1687
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661873"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/63d0b5f719532b474584fc2fa124ba2f_1712983825521934043.jpg",
+                    "height": 1872,
+                    "width": 2402,
+                    "format": "JPEG",
+                    "size": "423359",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 35
+                            },
+                            "rb_point": {
+                                "x": 2402,
+                                "y": 1836
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 264,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2137,
+                                "y": 1872
+                            }
+                        },
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 260
+                            },
+                            "rb_point": {
+                                "x": 2402,
+                                "y": 1611
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 498,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1903,
+                                "y": 1872
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661875"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/394262ee4be8f97524a22635c08e31e6_6965039180102880585.jpg",
+                    "height": 1840,
+                    "width": 2400,
+                    "format": "JPEG",
+                    "size": "356996",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 280,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2120,
+                                "y": 1840
+                            }
+                        },
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 245
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1594
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 509,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1890,
+                                "y": 1840
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 20
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1819
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661874"
+                }
+            ],
+            "is_official_master": false,
+            "is_user_master": false,
+            "hot_reply_exist": false,
+            "vote_count": 0,
+            "last_modify_time": 0,
+            "contribution": null,
+            "classification": {
+                "id": "101",
+                "name": "Genius Column",
+                "icon": ""
+            },
+            "video": null,
+            "game": {
+                "game_id": 2,
+                "game_name": "Miliastra Wonderland",
+                "color": "#7D6631",
+                "background_color": "#F3E9C8",
+                "icon": ""
+            },
+            "data_box": "",
+            "is_top_icon": false,
+            "tags": {
+                "is_user_top": false,
+                "is_qualified_post": false,
+                "is_hot_entry_post": false,
+                "hot_topic_idx": 0,
+                "is_doujin_force_post": false,
+                "is_exclusive": false,
+                "is_show_official_channel_jump": false
+            },
+            "hot_reply": null,
+            "collection": null,
+            "is_rich_text": false,
+            "catalog_style_hint": 0,
+            "cover_list": [
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/5b0342d59b2b924da47b15331c688894_3601407539643104544.jpg",
+                    "height": 1081,
+                    "width": 1922,
+                    "format": "JPEG",
+                    "size": "206477",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1922,
+                                "y": 1080
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 555,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1366,
+                                "y": 1081
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 239,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1682,
+                                "y": 1081
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 420,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1501,
+                                "y": 1081
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661876"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/91b3f2fb31a9c2ba368b24a93887b3ed_4133375439100226652.jpg",
+                    "height": 1688,
+                    "width": 2400,
+                    "format": "JPEG",
+                    "size": "256319",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 169
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1518
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 567,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1832,
+                                "y": 1688
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 73,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2326,
+                                "y": 1688
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 356,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2044,
+                                "y": 1687
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661873"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/63d0b5f719532b474584fc2fa124ba2f_1712983825521934043.jpg",
+                    "height": 1872,
+                    "width": 2402,
+                    "format": "JPEG",
+                    "size": "423359",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 35
+                            },
+                            "rb_point": {
+                                "x": 2402,
+                                "y": 1836
+                            }
+                        },
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 264,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2137,
+                                "y": 1872
+                            }
+                        },
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 260
+                            },
+                            "rb_point": {
+                                "x": 2402,
+                                "y": 1611
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 498,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1903,
+                                "y": 1872
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661875"
+                },
+                {
+                    "url": "https://upload-os-bbs.hoyolab.com/upload/2025/12/10/35264884/394262ee4be8f97524a22635c08e31e6_6965039180102880585.jpg",
+                    "height": 1840,
+                    "width": 2400,
+                    "format": "JPEG",
+                    "size": "356996",
+                    "spoiler": false,
+                    "cuts": [
+                        {
+                            "ratio": 3,
+                            "lt_point": {
+                                "x": 280,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 2120,
+                                "y": 1840
+                            }
+                        },
+                        {
+                            "ratio": 4,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 245
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1594
+                            }
+                        },
+                        {
+                            "ratio": 1,
+                            "lt_point": {
+                                "x": 509,
+                                "y": 0
+                            },
+                            "rb_point": {
+                                "x": 1890,
+                                "y": 1840
+                            }
+                        },
+                        {
+                            "ratio": 2,
+                            "lt_point": {
+                                "x": 0,
+                                "y": 20
+                            },
+                            "rb_point": {
+                                "x": 2400,
+                                "y": 1819
+                            }
+                        }
+                    ],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "126661874"
+                }
+            ],
+            "cut_type": 1,
+            "shows_game_classification": false,
+            "vote": null,
+            "hot_reply_v2": null,
+            "feedback": null,
+            "reply_quick_source": [],
+            "trans_source": "AWSTranslate",
+            "ugc_module": {
+                "ugc_levels": [
+                    {
+                        "level_id": "7794235887",
+                        "level": {
+                            "level_id": "7794235887",
+                            "region": "os_asia",
+                            "level_name": "Aedificium Abyssale",
+                            "cover": {
+                                "url": "https://asia-ugc-upload.hoyoverse.com/ugcprodasia/image/os_asia/54031567728464/20251204/9276ce21-4c86-4473-9eec-255a80e4999a.png?auth_key=1763379600-a54388c57b1e8104-0-7460f9ab907699bffe1534f48e096ade"
+                            },
+                            "desc": "",
+                            "limit_play_num_min": 1,
+                            "limit_play_num_max": 4,
+                            "play_type": "Collaboration",
+                            "good_rate": "--",
+                            "hot_score": "1,256",
+                            "creator_uid": "879140468",
+                            "interact_info": {
+                                "has_fav": false
+                            },
+                            "level_attachment": {
+                                "type": "CARD_ATTACHMENT_REPLY",
+                                "content": "Good game, 101% recommended. It tests your patience with the limited dash. It also feels rewarding to juke enemies by closing doors on them."
+                            },
+                            "user_play_info": {
+                                "has_played": false,
+                                "played_time": "0",
+                                "played_count": 0
+                            },
+                            "extra": {
+                                "play_link": [],
+                                "friends_played": false,
+                                "friends_played_list": [],
+                                "first_online_time": "0"
+                            },
+                            "level_info_has_released": true,
+                            "level_source_type": "LEVEL_SOURCE_TYPE_DEFAULT",
+                            "data_box": "",
+                            "show_limit_play_num_str": "1-4",
+                            "level_intro": ""
+                        }
+                    }
+                ],
+                "user_game_info": {
+                    "game_uid": "844817282",
+                    "game_region": "os_asia",
+                    "nick_name": "kpmgklvstd",
+                    "avatar": "",
+                    "level": 0,
+                    "game_region_name": "Asia Server"
+                },
+                "author_game_role_info": {
+                    "is_level_creator": false,
+                    "is_game_friend": false
+                },
+                "author_level_record": {
+                    "level_id": "7794235887",
+                    "rank": {
+                        "rank": 0,
+                        "rank_type": 0,
+                        "is_show": false
+                    },
+                    "tier": {
+                        "tier_star_cnt": 0,
+                        "tier_icon_url": "",
+                        "tier_color": "",
+                        "is_show": false
+                    }
+                },
+                "ugc_tags": [],
+                "ugc_levels_count": 1
+            }
+        },
+        "post_detail_redirection_info": null,
+        "game_version_cards": []
+    }
+}

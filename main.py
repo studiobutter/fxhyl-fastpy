@@ -114,12 +114,16 @@ def generate_embed_html(post: dict, post_url: str) -> str:
             video_meta_tags = f'<meta property="og:video" content="{video_url}"><meta property="og:video:type" content="video/mp4"><meta property="og:video:width" content="1280"><meta property="og:video:height" content="720">'
         else:
             main_image = video.get("cover", main_image)
+    
+    if not main_image:
+        main_image = u.get("avatar_url", "")
         
     # Clean description (remove HTML tags)
     subject = html.escape(p.get("subject", ""))
     clean_desc = html.escape(re.sub(r"<[^>]*>", "", p.get("desc", "")))
     nickname = html.escape(u.get("nickname", ""))
     theme_color = game.get("color", "#25A0E7")
+    game_name = html.escape(game.get("game_name", ""))
     
     # Gallery/Video HTML
     media_html = ""
@@ -140,7 +144,7 @@ def generate_embed_html(post: dict, post_url: str) -> str:
 <meta property="og:description" content="{clean_desc}">
 {'<meta property="og:image" content="' + main_image + '">' if main_image else ''}
 {video_meta_tags}
-<meta property="og:site_name" content="HoYoLAB">
+<meta property="og:site_name" content="{nickname}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{subject}">
 <meta name="twitter:description" content="{clean_desc}">
@@ -157,6 +161,7 @@ def generate_embed_html(post: dict, post_url: str) -> str:
   .image-gallery {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:12px; margin-top:20px; }}
   .image-gallery img {{ width:100%; border-radius:8px; }}
   .redirect-btn {{ display:inline-block; background:{theme_color}; color:white; padding:12px 24px; border-radius:8px; margin-top:20px; text-decoration:none; font-weight:600; }}
+  .footer {{ margin-top: 20px; text-align: center; color: #888; font-size: 14px; }}
 </style>
 <script>setTimeout(() => {{ window.location.href="{post_url}" }}, 3000);</script>
 </head>
@@ -167,6 +172,7 @@ def generate_embed_html(post: dict, post_url: str) -> str:
   <div>{clean_desc}</div>
   {media_html}
   <a class="redirect-btn" href="{post_url}">View on HoYoLAB</a>
+  <div class="footer">{game_name}</div>
 </div>
 </body>
 </html>"""
