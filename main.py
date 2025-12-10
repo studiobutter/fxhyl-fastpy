@@ -101,8 +101,19 @@ def generate_embed_html(post: dict, post_url: str) -> str:
     main_image = images[0]["url"] if images else ""
     
     # Video logic
+    video_url = None
+    video_meta_tags = ""
     if p.get("view_type") == 5 and video:
-        main_image = video.get("cover", main_image)
+        cover_url = video.get("cover", "")
+        if "ytimg" in cover_url:
+            main_image = cover_url
+        elif "vod-static.hoyolab.com" in cover_url:
+            main_image = "" # Don't show image for native videos
+            video_url = video.get("url")
+            # Resolution of the video is not available in the post data, using default values
+            video_meta_tags = f'<meta property="og:video" content="{video_url}"><meta property="og:video:type" content="video/mp4"><meta property="og:video:width" content="1280"><meta property="og:video:height" content="720">'
+        else:
+            main_image = video.get("cover", main_image)
         
     # Clean description (remove HTML tags)
     subject = html.escape(p.get("subject", ""))
@@ -110,11 +121,13 @@ def generate_embed_html(post: dict, post_url: str) -> str:
     nickname = html.escape(u.get("nickname", ""))
     theme_color = game.get("color", "#25A0E7")
     
-    # Gallery HTML
-    gallery_html = ""
-    if images:
+    # Gallery/Video HTML
+    media_html = ""
+    if video_url:
+        media_html = f'<video controls autoplay muted playsinline style="width:100%;border-radius:8px;margin-top:20px;" src="{video_url}"></video>'
+    elif images:
         imgs = "".join([f'<img src="{i["url"]}">' for i in images[:4]])
-        gallery_html = f'<div class="image-gallery">{imgs}</div>'
+        media_html = f'<div class="image-gallery">{imgs}</div>'
 
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -126,6 +139,7 @@ def generate_embed_html(post: dict, post_url: str) -> str:
 <meta property="og:title" content="{subject}">
 <meta property="og:description" content="{clean_desc}">
 {'<meta property="og:image" content="' + main_image + '">' if main_image else ''}
+{video_meta_tags}
 <meta property="og:site_name" content="HoYoLAB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{subject}">
@@ -151,7 +165,7 @@ def generate_embed_html(post: dict, post_url: str) -> str:
   <div class="author"><img src="{u['avatar_url']}"><div>{nickname}</div></div>
   <h1>{subject}</h1>
   <div>{clean_desc}</div>
-  {gallery_html}
+  {media_html}
   <a class="redirect-btn" href="{post_url}">View on HoYoLAB</a>
 </div>
 </body>

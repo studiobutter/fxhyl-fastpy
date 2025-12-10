@@ -1,0 +1,289 @@
+{
+    "retcode": 0,
+    "message": "OK",
+    "data": {
+        "post": {
+            "post": {
+                "game_id": 6,
+                "post_id": "38588239",
+                "f_forum_id": 0,
+                "uid": "172534910",
+                "subject": "Honkai: Star Rail × Fate_UBW Collaboration Preview",
+                "content": "{\"video\":\"472614\",\"describe\":\"Honkai: Star Rail × Fate/stay night [Unlimited Blade Works] Collaboration-themed Event: Sweet Dreams and the Holy Grail will officially launch on July 11!\\nFrom July 11, log into the game to claim the limited collaboration 5-star character Archer for free!\\n* For more details, please stay tuned for future announcements\"}",
+                "cover": "",
+                "view_type": 5,
+                "created_at": 1746291756,
+                "images": [],
+                "post_status": {
+                    "is_top": false,
+                    "is_good": false,
+                    "is_official": false,
+                    "is_vote": false,
+                    "is_quiz_vote": false,
+                    "is_demoted": false,
+                    "is_hot": false
+                },
+                "topic_ids": [],
+                "view_status": 1,
+                "max_floor": 91,
+                "is_original": 1,
+                "republish_authorization": 2,
+                "reply_time": "2025-05-29 13:22:17",
+                "is_deleted": 0,
+                "is_interactive": false,
+                "structured_content": "",
+                "structured_content_rows": [],
+                "lang": "en-us",
+                "official_type": 3,
+                "reply_forbid": {
+                    "date_type": 0,
+                    "start_date": "0",
+                    "cur_date": "0",
+                    "level": 0
+                },
+                "video": "",
+                "contribution_id": "0",
+                "event_start_date": "0",
+                "event_end_date": "0",
+                "classification_id": "25",
+                "is_audit": false,
+                "is_multi_language": true,
+                "origin_lang": "en-us",
+                "sub_type": 2,
+                "reprint_source": "",
+                "can_edit": true,
+                "last_modify_time": 0,
+                "multi_language_info": {
+                    "langs": [
+                        "zh-cn",
+                        "zh-tw",
+                        "en-us",
+                        "id-id",
+                        "th-th",
+                        "de-de",
+                        "fr-fr",
+                        "es-es",
+                        "pt-pt",
+                        "ru-ru",
+                        "ko-kr",
+                        "vi-vn",
+                        "ja-jp",
+                        "tr-tr",
+                        "it-it"
+                    ],
+                    "future_post_id": "19148",
+                    "lang_subject": {
+                        "th-th": "แจ้งเตือนการคอลแลบ \"Honkai: Star Rail\" × Fate_UBW",
+                        "tr-tr": "Honkai: Star Rail × Fate_UBW Collaboration Preview",
+                        "ja-jp": "『崩壊：スターレイル』× Fate_UBWコラボイベント予告PV",
+                        "de-de": "Honkai: Star Rail × Fate_UBW: Ankündigung der Gemeinschaftsaktion",
+                        "ru-ru": "Honkai: Star Rail × Fate_UBW: Совместная акция",
+                        "zh-cn": "《崩坏：星穹铁道》× Fate_UBW 联动预告",
+                        "it-it": "Honkai: Star Rail × Fate_UBW Collaboration Preview",
+                        "en-us": "Honkai: Star Rail × Fate_UBW Collaboration Preview",
+                        "zh-tw": "《崩壞：星穹鐵道》×《Fate_UBW》聯動預告",
+                        "pt-pt": "Prévia da Colaboração de Honkai: Star Rail x Fate_UBW",
+                        "vi-vn": "Thông Báo Hợp Tác Honkai: Star Rail × Fate_UBW",
+                        "id-id": "Preview Kolaborasi \"Honkai: Star Rail\" × Fate_UBW",
+                        "fr-fr": "Aperçu de la collaboration Honkai : Star Rail × Fate_UBW",
+                        "es-es": "Honkai: Star Rail × Fate_UBW - Anuncio de la colaboración",
+                        "ko-kr": "〈붕괴: 스타레일〉 × Fate_UBW 콜라보 예고"
+                    },
+                    "lang_content": {},
+                    "lang_structured_content": {}
+                },
+                "visible_level": 1,
+                "has_cover": false,
+                "suid": "0",
+                "desc": "Honkai: Star Rail × Fate/stay night [Unlimited Blade Works] Collaboration-themed Event: Sweet Dreams and the Holy Grail will officially launch on July 11!\nFrom July 11, log into the game to claim the limited collaboration 5-star character Archer for free!\n* For more details, please stay tuned for future announcements",
+                "game_uid": "0",
+                "game_region": ""
+            },
+            "forum": null,
+            "topics": [],
+            "user": {
+                "uid": "172534910",
+                "nickname": "Honkai: Star Rail",
+                "introduce": "May This Journey Lead Us Starward",
+                "avatar": "-1",
+                "gender": 0,
+                "certification": {
+                    "type": 1,
+                    "icon_url": "https://hyl-static-res-prod.hoyolab.com/upload/static-resource/2022/02/23/f5a37763f0f2080c0c43cca8638af024_5295925290813405198.webp",
+                    "desc": "HonkaiSR Official"
+                },
+                "level_exp": {
+                    "level": 0,
+                    "exp": 0
+                },
+                "is_following": true,
+                "is_followed": false,
+                "avatar_url": "https://upload-os-bbs.hoyolab.com/upload/2025/09/24/172534910/50f3ecb1745daf4e752cd92907359416_2400603012873506547.jpeg",
+                "auth": null,
+                "is_logoff": false,
+                "pendant": "",
+                "was_following": false,
+                "post_num": 2208,
+                "suid": "0",
+                "black_relation": {
+                    "is_blacking": false,
+                    "is_blacked": false
+                },
+                "badge": null,
+                "lantern": null,
+                "otaku_devotion_title": {
+                    "icon": "",
+                    "name": "",
+                    "desc": "",
+                    "otaku_identity": "OtakuIdentityNone",
+                    "accompany_title": "AccompanyTitleUnknown",
+                    "role_id": "0"
+                },
+                "allow_community": true,
+                "content_cannot_be_upvoted": false,
+                "content_cannot_be_replied": false,
+                "post_cannot_be_shared": false,
+                "post_cannot_be_collected": false,
+                "cannot_be_followed": false
+            },
+            "self_operation": {
+                "attitude": 0,
+                "is_collected": false
+            },
+            "stat": {
+                "view_num": 45534,
+                "reply_num": 92,
+                "like_num": 2343,
+                "bookmark_num": 277,
+                "share_num": 87,
+                "view_num_unit": "",
+                "reply_num_unit": "",
+                "like_num_unit": "",
+                "bookmark_num_unit": "",
+                "share_num_unit": "",
+                "true_view_num": 0,
+                "click_view_num": 0,
+                "summary_for_creator": null,
+                "multi_upvote_stats": [
+                    {
+                        "upvote_id": "1",
+                        "upvote_num": 2199
+                    },
+                    {
+                        "upvote_id": "2",
+                        "upvote_num": 91
+                    },
+                    {
+                        "upvote_id": "4",
+                        "upvote_num": 22
+                    },
+                    {
+                        "upvote_id": "3",
+                        "upvote_num": 21
+                    },
+                    {
+                        "upvote_id": "8",
+                        "upvote_num": 5
+                    },
+                    {
+                        "upvote_id": "9",
+                        "upvote_num": 3
+                    },
+                    {
+                        "upvote_id": "5",
+                        "upvote_num": 2
+                    }
+                ],
+                "self_operation": null,
+                "expose_view_num": 0
+            },
+            "help_sys": null,
+            "cover": null,
+            "image_list": [],
+            "is_official_master": false,
+            "is_user_master": false,
+            "hot_reply_exist": true,
+            "vote_count": 0,
+            "last_modify_time": 0,
+            "contribution": null,
+            "classification": {
+                "id": "25",
+                "name": "Game News \u0026 suggestions",
+                "icon": ""
+            },
+            "video": {
+                "id": "472614",
+                "cover": "https://vod-static.hoyolab.com/4/2025-05-03/transcoded/141918710044165853184_captions.0000000.jpg",
+                "url": "https://vod-static.hoyolab.com/4/2025-05-03/transcoded/141918710044165853184_1080p.mp4",
+                "is_vertical": false,
+                "sub_type": 2,
+                "resolution": [
+                    {
+                        "name": "default",
+                        "height": "1080",
+                        "width": "1920",
+                        "url": "https://vod-static.hoyolab.com/4/2025-05-03/transcoded/141918710044165853184_1080p.mp4",
+                        "duration": "26"
+                    }
+                ],
+                "status": "published",
+                "cover_meta": {
+                    "url": "https://vod-static.hoyolab.com/4/2025-05-03/transcoded/141918710044165853184_captions.0000000.jpg",
+                    "height": 1080,
+                    "width": 1920,
+                    "format": "",
+                    "size": "0",
+                    "spoiler": false
+                }
+            },
+            "game": {
+                "game_id": 6,
+                "game_name": "Honkai: Star Rail",
+                "color": "#25A0E7",
+                "background_color": "#F3E9C8",
+                "icon": ""
+            },
+            "data_box": "",
+            "is_top_icon": false,
+            "tags": {
+                "is_user_top": false,
+                "is_qualified_post": false,
+                "is_hot_entry_post": false,
+                "hot_topic_idx": 0,
+                "is_doujin_force_post": false,
+                "is_exclusive": false,
+                "is_show_official_channel_jump": false
+            },
+            "hot_reply": null,
+            "collection": null,
+            "is_rich_text": false,
+            "catalog_style_hint": 0,
+            "cover_list": [
+                {
+                    "url": "https://vod-static.hoyolab.com/4/2025-05-03/transcoded/141918710044165853184_captions.0000000.jpg",
+                    "height": 1080,
+                    "width": 1920,
+                    "format": "",
+                    "size": "0",
+                    "spoiler": false,
+                    "cuts": [],
+                    "tag_info": {
+                        "is_long_picture": false
+                    },
+                    "template_info": null,
+                    "image_id": "0"
+                }
+            ],
+            "cut_type": 0,
+            "shows_game_classification": false,
+            "vote": null,
+            "hot_reply_v2": null,
+            "feedback": null,
+            "reply_quick_source": [],
+            "trans_source": "AWSTranslate",
+            "ugc_module": null
+        },
+        "post_detail_redirection_info": null,
+        "game_version_cards": []
+    }
+}
