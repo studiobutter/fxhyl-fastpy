@@ -1,4 +1,5 @@
 import re
+import html
 from urllib.parse import unquote, urlparse, parse_qs
 from fastapi import FastAPI, Response
 from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
@@ -104,7 +105,9 @@ def generate_embed_html(post: dict, post_url: str) -> str:
         main_image = video.get("cover", main_image)
         
     # Clean description (remove HTML tags)
-    clean_desc = re.sub(r"<[^>]*>", "", p.get("desc", ""))
+    subject = html.escape(p.get("subject", ""))
+    clean_desc = html.escape(re.sub(r"<[^>]*>", "", p.get("desc", "")))
+    nickname = html.escape(u.get("nickname", ""))
     theme_color = game.get("color", "#25A0E7")
     
     # Gallery HTML
@@ -120,17 +123,17 @@ def generate_embed_html(post: dict, post_url: str) -> str:
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{post_url}">
-<meta property="og:title" content="{p['subject']}">
+<meta property="og:title" content="{subject}">
 <meta property="og:description" content="{clean_desc}">
 {'<meta property="og:image" content="' + main_image + '">' if main_image else ''}
 <meta property="og:site_name" content="HoYoLAB">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{p['subject']}">
+<meta name="twitter:title" content="{subject}">
 <meta name="twitter:description" content="{clean_desc}">
 {'<meta name="twitter:image" content="' + main_image + '">' if main_image else ''}
 <meta name="theme-color" content="{theme_color}">
-<meta name="author" content="{u['nickname']}">
-<title>{p['subject']} - HoYoLAB</title>
+<meta name="author" content="{nickname}">
+<title>{subject} - HoYoLAB</title>
 <style>
   body {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto; max-width: 800px; margin: 40px auto; padding: 20px; background: #f5f5f5; }}
   .container {{ background: white; border-radius: 12px; padding: 30px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }}
@@ -145,8 +148,8 @@ def generate_embed_html(post: dict, post_url: str) -> str:
 </head>
 <body>
 <div class="container">
-  <div class="author"><img src="{u['avatar_url']}"><div>{u['nickname']}</div></div>
-  <h1>{p['subject']}</h1>
+  <div class="author"><img src="{u['avatar_url']}"><div>{nickname}</div></div>
+  <h1>{subject}</h1>
   <div>{clean_desc}</div>
   {gallery_html}
   <a class="redirect-btn" href="{post_url}">View on HoYoLAB</a>
